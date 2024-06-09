@@ -1,0 +1,1 @@
+#Crie uma classe Retangulo que tenha atributos largura e altura e métodos para calcular a área e o perímetro do retângulo.
