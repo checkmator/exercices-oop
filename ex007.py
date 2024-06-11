@@ -9,7 +9,7 @@ class Livro:
 
     def aplicar_desconto(self,percentual):
         valor_final = self.preco - (percentual/100)
-        return valor_final
+        print(valor_final)
     
 livro1 = Livro("ex007.py", "jpg", 100)
 livro1.aplicar_desconto(10)
