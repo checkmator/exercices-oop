@@ -3,21 +3,21 @@
 #Implemente métodos para exibir informações do carro.
 
 class Veiculo:
-    def __init__(self, marca, modelo):
+    def __init__(self, marca, modelo):#acertei 
         self.marca = marca
         self.modelo = modelo
 
-class Carro(Veiculo): #duvida1: devo colocar essa a classe filho dentro da classe pai? 
+class Carro(Veiculo): #acertei
     def __init__(self, marca, modelo, num_portas):
         super().__init__(marca, modelo)
-        self.num_portas = num_portas
+        self.num_portas = num_portas #duvida1: devo colocar essa a classe filho dentro da classe pai? R: nao
+        
+    def mostrar_dados(self): #duvida1: devo colocar esse metodo dentro da classe carrp? R: Sim
+        return f"Marca: {self.marca}, Modelo: {self.modelo}, Número de portas: {self.num_portas}"
 
-def mostrar_dados(self): #duvida1: devo colocar esse metodo dentro da classe veiculo
-    print(self.marca)
+carro1 = Carro("toyota", "hilux", "4") #Errei, aqui eu deveria ter chamado a classe filha (Carro("hilux, toyota"))
 
-carro1 = Carro(Veiculo("hilux","toyota"))
-
-carro1.mostrar_dados()
+print(carro1.mostrar_dados())
 
 
     
