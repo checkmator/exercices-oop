@@ -8,8 +8,8 @@ class Funcionario:
         self.cargo = cargo
     
     def aumento_salario(self, salario, aumento):
-        self.salario += aumento
-        print(aumento)
+        salario_final = (self.salario + aumento)
+        print(salario_final)
 
 
 dados = Funcionario("joao", 1000, "adm")
