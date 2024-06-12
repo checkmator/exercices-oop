@@ -8,11 +8,11 @@ class Cachorro:
         self.idade = idade
         self.raca = raca
 
-    def calcular_idade(self):
+    def calcular_idade(self): #funcao de calcular idade cachorro humano
         idade_humano = self.idade*7
         return idade_humano
 
-    def exibir_infos(self):
+    def exibir_infos(self):#exibe os dados, add a idade do cachorro humano aqui tambem
         return f"Nome: {self.nome}, Idade: {self.idade},Idade em anos humanos: {}, raca: {self.raca}"
 
 dog1 = Cachorro("Perola", 2, "vira lata")
