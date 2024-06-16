@@ -2,4 +2,16 @@
 
 class Calculadora:
     def __init__(self, adicao, subtracao, multiplicacao, divisao):
-        pass
+        self.adicao = adicao
+        self.subtracao = subtracao
+        self.multiplicacao = multiplicacao
+        self.divisao = divisao
+
+
+operacao1 = Calculadora()
+
+operacao2 =
+
+operacao3 =
+
+operacao4 =
