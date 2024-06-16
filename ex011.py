@@ -6,4 +6,16 @@ class Produto:
         self.nome = nome
         self.preco = preco
     
+class Estoque(Produto):
+    def exibir_produtos():
+        pass
+
+    def adicionar_produtos():
+        pass
+
+    def remover_produtos():
+        pass
+
+    def calcular_valor_total():
+        pass
     
